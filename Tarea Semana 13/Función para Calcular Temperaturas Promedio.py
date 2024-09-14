@@ -1,14 +1,6 @@
 # Función para calcular el promedio de temperaturas
 def calcular_temperatura_promedio(temperaturas):
-    """
-    Calcula la temperatura promedio para cada ciudad a partir de los datos semanales proporcionados.
 
-    Parámetros:
-    temperaturas (list): Lista de listas donde cada sublista contiene las temperaturas semanales para una ciudad.
-
-    Retorna:
-    dict: Diccionario con el nombre de la ciudad como clave y la temperatura promedio como valor.
-    """
     # Lista de nombres de ciudades
     ciudades = ["Ventanas", "Guayaquil", "Babahoyo"]
     promedios = {}
