@@ -1,17 +1,18 @@
-#Funcion paracalcular de Descuento en Compras
+#Funcion para calcular de descuento en compras
 def calcular_descuento(monto_total, porcentaje_descuento=10):
-    """Calcula el descuento y devuelve el monto del descuento"""
+    "Calcula el descuento y devuelve el monto del descuento"
     descuento = monto_total * (porcentaje_descuento / 100)
     return descuento
 
-# el monto total de la compra
-monto1 = 100
-descuento1 = calcular_descuento(monto1)
-monto_final1 = monto1 - descuento1
-print(f"Monto total: ${monto1}, Descuento: ${descuento1}, Monto final a pagar: ${monto_final1}")
+# El monto total de la compra
+monto_tot1 = 100
+descuen1 = calcular_descuento(monto_tot1)
+monto_fin1 = monto_tot1 - descuen1
+print(f"Monto total: ${monto_tot1}, Descuento: ${descuen1}, Monto final a pagar: ${monto_fin1}")
 
-monto2 = 200
+# El monto total de la compra como el porcentaje de descuento.
+monto_tot2 = 250
 porcentaje2 = 15
-descuento2 = calcular_descuento(monto2, porcentaje2)
-monto_final2 = monto2 - descuento2
-print(f"Monto total: ${monto2}, Descuento: ${descuento2}, Monto final a pagar: ${monto_final2}")
+descuen2 = calcular_descuento(monto_tot2, porcentaje2)
+monto_fin2 = monto_tot2 - descuen2
+print(f"Monto total: ${monto_tot2}, Descuento: ${descuen2}, Monto final a pagar: ${monto_fin2}")
