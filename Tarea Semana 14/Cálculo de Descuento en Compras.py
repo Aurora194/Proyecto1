@@ -10,7 +10,7 @@ descuen1 = calcular_descuento(monto_tot1)
 monto_fin1 = monto_tot1 - descuen1
 print(f"Monto total: ${monto_tot1}, Descuento: ${descuen1}, Monto final a pagar: ${monto_fin1}")
 
-# El monto total de la compra como el porcentaje de descuento
+# El monto total de la compra con el porcentaje de descuento
 monto_tot2 = 250
 porcentaje2 = 15
 descuen2 = calcular_descuento(monto_tot2, porcentaje2)
