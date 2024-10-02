@@ -1,5 +1,4 @@
 
-
 # Escritura de Archivo de Texto
 # Se crea un archivo llamado my_notes.txt
 file = open("my_notes.txt", "w")
